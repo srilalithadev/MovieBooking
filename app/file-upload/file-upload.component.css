@@ -1,0 +1,22 @@
+h1{
+   
+    font-size: 30px;
+    font-weight: 420;
+    margin-bottom: 5%;
+    background: -webkit-linear-gradient(black, rgb(13, 120, 219));
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container{
+    margin-top: 5%;
+   align-items: center;
+   padding: 3%;
+   border: solid white;
+}
+input{
+    margin-top: 1%;
+    font-size: 1.25rem;
+    margin-left: 30%;
+    /* border:solid #556273 ; */
+}

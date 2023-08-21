@@ -1,0 +1,29 @@
+ <br><h1 style="text-align:center;">Display List of Movies</h1>
+ <span style="text-align: center;">
+<button style="margin-left:40%; margin-bottom: 2%; font-size: 1.25rem;" type="button" class="btn btn-warning" routerLink="create-product">Add a new movie</button>
+
+    <button style="margin-left:2%;margin-bottom: 2%; font-size: 1.25rem;" type="button" class="btn btn-info"(click)="bulk()">Bulk Upload</button>
+</span>
+    
+
+<div class="center">
+<div class="container col-md-6">
+        <table class="table" style="color: black; font-weight: bolder;" >
+
+
+        <tr><th>ID</th><th>Movie Name</th><th>Price</th><th>URL</th><th>Seats Available</th><th>Genre</th><th>Update</th><th>Delete</th></tr>
+
+        <tr *ngFor="let product of productList" ><td>{{product.id}}</td><td style="width:max-content;">{{product.name}}</td><td>{{product.price}}</td><td>{{product.url}}</td><td>{{product.quantity}}</td><td>{{product.catagory}}</td>
+
+        <td>
+        <button  (click)="updateProduct(product.id)" class="btn btn-sm btn-info" >
+        Update</button></td>
+        <td>
+        <button  (click)="deleteProduct(product.id)"  class="btn btn-sm btn-danger">
+            Delete</button></td>
+
+        </tr>
+        </table>
+
+</div>
+</div>

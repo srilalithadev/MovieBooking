@@ -1,0 +1,30 @@
+  .collapse{
+    margin-left:65%;
+   }
+   
+   .navbar-brand{
+    margin-left: 3%;
+
+    font-weight:500;
+    font-size: 2em;
+   }
+   #navbarNavAltMarkup{
+    font-size: 1.25em;
+    font-weight:420;
+   }
+
+
+
+.navbar-brand{
+  background: -webkit-linear-gradient(black, rgb(13, 120, 219));
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav{
+  background: -webkit-linear-gradient(black, rgb(13, 120, 219));
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
